@@ -19,4 +19,16 @@ class TestStatisticsService(unittest.TestCase):
             PlayerReaderStub()
         )
 
-    # ...
+    def test_find_player(self):
+        player = self.stats.search("Semenko")
+        self.assertAlmostEqual(str(self.players[0]), str(player))
+
+    def test_no_such_player(self):
+        player = self.stats.search("Nobody")
+        self.assertFalse(player)
+
+    def test_find_tean(self):
+        team = self.stats.team("EDM")
+        teammates = [self.players[0], self.players[2], self.players[4]]
+        self.assertAlmostEquals(team, teammates)
+    
