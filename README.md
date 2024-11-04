@@ -1,2 +1,2 @@
 # palautusrepositorio
-![ohtuvarasto](https://github.com/lowdodo/ohtuvarasto)
+[ohtuvarasto](https://github.com/lowdodo/ohtuvarasto)
