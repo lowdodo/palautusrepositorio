@@ -1,0 +1,1 @@
+print("tämä  on osamäärä")
