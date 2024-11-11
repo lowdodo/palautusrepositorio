@@ -12,5 +12,5 @@ print(f"{x} + {y} = {summa(x, y)}") # muutos mainissa
 print(f"{x} - {y} = {erotus(y, y)}") # muutos mainissa
 
 
-logger("lopetetaan ohjelma")
+logger("lopetetaan ohjelma mainissa niin että tulisi virhe")
 print("goodbye!")
