@@ -7,7 +7,7 @@ class PlayerStats:
     def top_by_nat(self, nationality):
         filtered = []
         for player in self.players:
-            if player.nationality == "FIN":
+            if player.nationality == nationality:
                 filtered.append(player)
             
         sorted_players = sorted(filtered, key=lambda p: p.points, reverse = True)
