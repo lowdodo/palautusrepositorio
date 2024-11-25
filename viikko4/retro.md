@@ -1,4 +1,4 @@
-Retrospektiivitekniikat: Start, Stop, Continue, More of, Less of, Glad, Sad, Mad
+# Retrospektiivitekniikat: Start, Stop, Continue, More of, Less of, Glad, Sad, Mad
 
 Retrospektiivitekniikat ovat ohjelmoinnin työkaluja, joiden avulla tiimit voivat pohtia prosessejaan ja parantaa niitä. Iteraation lopussa käytävät retrosepktiivit voivat auttaa seuraavien sprinttien toteutuksessa ja parantaa tiimityötä, sekä vähentää uupumusta tehostaessaan työskentelyä.
 
