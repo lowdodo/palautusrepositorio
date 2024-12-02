@@ -8,11 +8,12 @@ class Komento(Enum):
     NOLLAUS = 3
     KUMOA = 4
 
+
 class Komennot:
     def __init__(self, sovelluslogiikka, syotteen_lukija):
         self._sovelluslogiikka = sovelluslogiikka
         self._syotteen_lukija = syotteen_lukija
-        self._edellinen_arvo = None  
+        self._edellinen_arvo = None
 
     def suorita(self):
         pass
@@ -26,6 +27,7 @@ class Summa(Komennot):
     def suorita(self):
         self._edellinen_arvo = self._sovelluslogiikka.arvo()
         self._sovelluslogiikka.plus(int(self._syotteen_lukija()))
+
 
 class Erotus(Komennot):
     def suorita(self):
@@ -86,7 +88,8 @@ class Kayttoliittyma:
         )
 
         tulos_teksti.grid(columnspan=4)
-        self._syote_kentta.grid(columnspan=4, sticky=(constants.E, constants.W))
+        self._syote_kentta.grid(
+            columnspan=4, sticky=(constants.E, constants.W))
         summa_painike.grid(row=2, column=0)
         erotus_painike.grid(row=2, column=1)
         self._nollaus_painike.grid(row=2, column=2)
